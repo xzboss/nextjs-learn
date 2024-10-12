@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export default function Home(a) {
   console.log(a, "@@");
-  const tabs = ["/about", "/center","/posts/001","/posts/002/002-001"];
+  const tabs = ["/about", "/center","/posts/001","/posts/001","/posts/002/002-001"];
   return (
     <div className="tabWrapper">
       {tabs.map((item) => {
